@@ -1,0 +1,30 @@
+{
+  "best_parameters": {
+    "lambda_over": 0.4,
+    "lambda_under": 0.4,
+    "theta_queue": 0.3
+  },
+  "optimized": {
+    "total_cash": 0.0,
+    "avg_fill_px": 0.0
+  },
+  "baselines": {
+    "best_ask": {
+      "total_cash": 0.0,
+      "avg_fill_px": 0.0
+    },
+    "twap": {
+      "total_cash": 0.0,
+      "avg_fill_px": 0.0
+    },
+    "vwap": {
+      "total_cash": 0.0,
+      "avg_fill_px": 0.0
+    }
+  },
+  "savings_vs_baselines_bps": {
+    "best_ask": 0.0,
+    "twap": 0.0,
+    "vwap": 0.0
+  }
+}
