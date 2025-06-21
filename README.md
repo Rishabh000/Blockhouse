@@ -1,19 +1,5 @@
-# Blockhouse Work Trial Repo
-
-This repository consists of the following components:
-
-1. **Benchmarks** – Code for TWAP and VWAP strategies.  
-2. **Cost Calculations** – Code for calculating various costs within the rewards component.  
-3. **Datasets** – Example datasets that can be used for this process.  
-
----
-
-## Notes
-
-- You are encouraged to modify or extend the cost components code if needed.
-- Feel free to use any additional data or implement other logic as necessary.
-
----
+# Blockhouse 
+## Walkthrough Video: https://drive.google.com/drive/folders/10c3F7PWIdestxnZ5qm1yMDS_8CT19aeZ?usp=sharing
 
 ## 🖥️ EC2 Instance Details
 
@@ -40,7 +26,7 @@ newgrp docker
 ```
 3. **Update docker-compose.yml**
 	Ensure the following environment variables are included under the Kafka service:
-```yaml
+```bash
 	environment:
   	KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
   	KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
@@ -87,6 +73,19 @@ Run Backtest:
 
 
 ## Kafka + Backtest.py running on EC2
+### Backtest.py
+![image](https://github.com/user-attachments/assets/9e908810-1b8d-4bad-87a2-338d1af9fc85)
+### Kafka
+![image](https://github.com/user-attachments/assets/91df563e-4719-4338-9392-1571b90f9449)
+
+## Output.json
+![image](https://github.com/user-attachments/assets/bcc9109e-a49c-48fe-94b7-92cac1cf3665)
+
+## Uptime 
+![image](https://github.com/user-attachments/assets/248bd327-050e-4c87-ae42-ada808c83ae0)
+
+
+
 
 
 
